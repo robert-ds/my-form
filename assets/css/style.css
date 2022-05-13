@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(98, 213, 252);
+  background-image: url(../imgs/geometric.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 62.9%;
+}
+
+.main-container{
+  display:flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.frm-main{
+  background-color: rgba(255, 254, 246, .9);
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+h1{
+  color: rgb(1, 40, 53);
+  padding: 5px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.frm-main__field{
+  margin: 10px;
+}
+
+.frm-main__field input{
+  width: 230px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(251, 254, 255);
+  font-size: 16px;
+}
+
+input{
+  color: rgb(13, 182, 240);
+} 
+
+input#check{
+  width: auto;
+  height: 10px;
+}
+
+input::placeholder{
+  color: rgb(13, 182, 240);
+}
+
+input#user{
+  background: transparent;
+  background-image: url(../imgs/account_circle_black_24dp.png);
+  background-repeat: no-repeat;
+  background-position: 3px;
+  padding-left: 35px;
+  outline: none;
+}
+
+input#password{
+  background: transparent;
+  background-image: url(../imgs/key_black_24dp.png);
+  background-repeat: no-repeat;
+  background-position: 3px;
+  padding-left: 35px;
+  outline: none;
+}
+
+[for="check"]{
+  font-size: 12px;
+  position: relative;
+  top: -3px;
+  margin-left: 2px;
+}
+
+button.frm-main__button--button{
+  background-color: rgb(13, 182, 240);
+  border: 0;
+  padding: 10px;
+  margin-top: 30;
+  font-size: 18px;
+  color: rgb(243, 243, 243);
+  font-weight: 600;
+  margin-left: 200px;
+}
+
+button.frm-main__button--button:hover{
+  background-color: rgb(4, 129, 170);
+}
+
